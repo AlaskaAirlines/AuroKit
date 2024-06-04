@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [1.0.0-beta.4](https://github.com/AlaskaAirlines/auro-kit/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2024-06-04)
+
+
+### Performance Improvements
+
+* update versions of dependencies ([a94fd42](https://github.com/AlaskaAirlines/auro-kit/commit/a94fd42788cb3189b303c1b641d6dee06f205031))
+
 # [1.0.0-beta.3](https://github.com/AlaskaAirlines/auro-kit/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2024-06-04)
 
 
