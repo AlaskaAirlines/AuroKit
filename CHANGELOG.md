@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [1.0.0-beta.3](https://github.com/AlaskaAirlines/auro-kit/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2024-06-04)
+
+
+### Performance Improvements
+
+* remove @aurodesignsystem/auro-kit from list ([8ca8c84](https://github.com/AlaskaAirlines/auro-kit/commit/8ca8c843cd778c3aab47045f616e4007f7e86923))
+
 # [1.0.0-beta.2](https://github.com/AlaskaAirlines/auro-kit/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2024-06-04)
 
 
