@@ -29,49 +29,14 @@
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "@open-wc/testing": "^4.0.0",
-    "@rollup/plugin-node-resolve": "^15.2.3",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/npm": "^12.0.1",
     "@web/dev-server": "^0.4.5",
     "@web/test-runner": "^0.18.2",
-    "autoprefixer": "^10.4.19",
-    "compression": "^1.7.4",
-    "concat": "^1.0.3",
-    "concurrently": "^8.2.2",
-    "copyfiles": "^2.4.1",
-    "core-js": "^3.37.1",
-    "eslint": "^9.2.0",
-    "eslint-plugin-jsdoc": "^48.2.4",
-    "husky": "^8.0.0",
-    "lodash": "^4.17.21",
-    "markdown-magic": "^2.6.1",
     "nodemon": "^3.1.0",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.38",
-    "postcss-discard-comments": "^7.0.0",
-    "postcss-selector-replace": "^1.0.2",
-    "rollup": "^4.17.2",
-    "rollup-plugin-serve": "^1.1.1",
-    "sass": "^1.77.1",
-    "semantic-release": "^23.1.1",
-    "stylelint": "^16.5.0",
-    "stylelint-config-idiomatic-order": "^10.0.0",
-    "stylelint-config-standard": "^36.0.0",
-    "stylelint-config-standard-scss": "^13.1.0",
-    "stylelint-order": "^6.0.4",
-    "stylelint-scss": "^6.3.0",
-    "typescript": "^5.4.5",
-    "wc-sass-render": "^1.4.0",
-    "web-component-analyzer": "^2.0.0",
-    "whatwg-fetch": "^3.6.20",
-    "yaml-lint": "^1.7.0"
-  },
-  "overrides": {
-    "wc-sass-render": {
-      "sass": "$sass"
-    }
+    "semantic-release": "^24.0.0"
   },
   "browserslist": [
     "last 2 Chrome versions",
@@ -80,15 +45,10 @@
     "last 2 Edge versions",
     "last 2 Safari major versions"
   ],
-  "nodemonConfig": {
-    "ignore": [
-      "*-css.js",
-      "*.css"
-    ]
-  },
   "release": {
     "branches": [
-      "main"
+      { "name": "main" },
+      { "name": "beta", "prerelease": true }
     ],
     "plugins": [
       "@semantic-release/commit-analyzer",
@@ -106,11 +66,7 @@
         {
           "assets": [
             "./package.json",
-            "./CHANGELOG.md",
-            "./README.md",
-            "./docs/api.md",
-            "./demo/index.md",
-            "./demo/api.md"
+            "./CHANGELOG.md"
           ]
         }
       ],
