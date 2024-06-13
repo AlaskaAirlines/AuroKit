@@ -49,7 +49,7 @@ teams:
     permission: push
 
 branches:
-  - name: main
+  - name: [ 'main', 'beta' ]
     # https://developer.github.com/v3/repos/branches/#update-branch-protection
     # Branch Protection settings. Set to null to disable
     protection:
