@@ -1,10 +1,10 @@
 name: Feature request
 description: Suggest an idea for this project
-title: 'auro-kit: [feature summary]'
+title: 'aurokit: [feature summary]'
 labels:
   - 'Type: Feature'
   - not-reviewed
-  - 'auro-kit'
+  - 'aurokit'
 body:
   - type: textarea
     id: request
