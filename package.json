@@ -18,8 +18,6 @@
   },
   "dependencies": {
     "@alaskaairux/icons": "~5.2.0",
-    "@aurodesignsystem/design-tokens": "~5.0.6",
-    "@aurodesignsystem/webcorestylesheets": "~6.1.0",
     "@aurodesignsystem/auro-accordion": "~5.0.0",
     "@aurodesignsystem/auro-alert": "~4.0.0",
     "@aurodesignsystem/auro-avatar": "~6.0.0",
@@ -49,19 +47,30 @@
     "@aurodesignsystem/auro-skeleton": "~4.0.0",
     "@aurodesignsystem/auro-table": "~4.0.0",
     "@aurodesignsystem/auro-toast": "~3.0.0",
+    "@aurodesignsystem/design-tokens": "~5.0.6",
+    "@aurodesignsystem/webcorestylesheets": "~6.1.0",
     "chalk": "~5.4.1"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.5",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/npm": "^12.0.1",
+    "@storybook/addon-essentials": "^8.6.4",
+    "@storybook/blocks": "^8.6.4",
+    "@storybook/experimental-addon-test": "^8.6.4",
+    "@storybook/test": "^8.6.4",
+    "@storybook/web-components": "^8.6.4",
+    "@storybook/web-components-vite": "^8.6.4",
     "@web/dev-server": "^0.4.5",
     "@web/test-runner": "^0.20.0",
+    "lit": "^3.2.1",
     "nodemon": "^3.1.0",
     "npm-run-all": "^4.1.5",
-    "semantic-release": "^24.2.3"
+    "semantic-release": "^24.2.3",
+    "storybook": "^8.6.4"
   },
   "browserslist": [
     "last 2 Chrome versions",
@@ -110,5 +119,10 @@
     "alaska airlines",
     "auro",
     "design system"
-  ]
+  ],
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
 }

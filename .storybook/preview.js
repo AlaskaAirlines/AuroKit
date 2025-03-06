@@ -1,0 +1,16 @@
+/** @type { import('@storybook/web-components').Preview } */
+
+import '@aurodesignsystem/design-tokens/dist/auro-classic/CSSCustomProperties.css';
+
+const preview = {
+  parameters: {
+    controls: {
+      matchers: {
+       color: /(background|color)$/i,
+       date: /Date$/i,
+      },
+    },
+  },
+};
+
+export default preview;
