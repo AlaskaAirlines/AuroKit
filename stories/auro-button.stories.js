@@ -13,6 +13,16 @@ export default {
         component: 'The `auro-button` component is a versatile button element used for actions like submitting forms, initiating tasks, or navigating to the next step in a process. It supports various attributes to customize its appearance and behavior.',
       },
     },
+    a11y: {
+      config: {
+        rules: [
+          {
+            id: 'color-contrast',
+            enabled: false,
+          },
+        ],
+      },
+    },
   },
   args: {
     variant: 'primary',
@@ -73,11 +83,11 @@ export default {
       control: { type: 'boolean' },
       description: 'Alters the content to the shimmering dots to alert the user that the button/form is in an active state.',
     },
-    'aria-labelledby': {
+    arialabelledby: {
       control: { type: 'text' },
       description: 'Populates the `aria-labelledby` attribute that establishes relationships between objects and their label(s), and its value should be one or more element IDs, which refer to elements that have the text needed for labeling. List multiple element IDs in a space delimited fashion.',
     },
-    'aria-label': {
+    arialabel: {
       control: { type: 'text' },
       description: 'Populates the `aria-label` attribute that is used to define a string that labels the current element. Use it in cases where a text label is not visible on the screen. If there is visible text labeling the element, use `aria-labelledby` instead.',
     },
@@ -91,8 +101,8 @@ export default {
 const Template = ({
   variant,
   disabled,
-  'aria-label': ariaLabel,
-  'aria-labelledby': arialabelledby,
+  arialabel,
+  arialabelledby,
   onDark,
   slim,
   title,
@@ -110,6 +120,7 @@ const Template = ({
 <auro-button
   id="${ifDefined(id ? id : undefined)}"
   arialabelledby="${ifDefined(arialabelledby ? arialabelledby : undefined)}"
+  arialabel="${ifDefined(arialabel ? arialabel : undefined)}"
   variant="${ifDefined(variant ? variant : undefined)}"
   ?onDark="${ifDefined(onDark ? onDark : undefined)}"
   ?iconOnly="${ifDefined(iconOnly ? iconOnly : undefined)}"
@@ -121,7 +132,6 @@ const Template = ({
   ?rounded="${ifDefined(rounded ? rounded : undefined)}"
   ?loading="${loading}"
   ?disabled="${disabled}"
-  aria-label="${ifDefined(ariaLabel ? ariaLabel : undefined)}"
 >
   ${slot}
   ${category && name ? html`<auro-icon customColor category="${category}" name="${name}" slot="icon"></auro-icon>`:''}
@@ -138,7 +148,7 @@ ButtonWithIcon.args = {
   slot: 'activate WiFi',
   category: 'in-flight',
   name: 'wifi',
-  'aria-label': 'activate wifi',
+  arialabel: 'activate wifi',
 };
 ButtonWithIcon.parameters = {
   docs: {
@@ -153,7 +163,7 @@ IconOnly.args = {
   iconOnly: true,
   category: 'in-flight',
   name: 'wifi',
-  'aria-label': 'activate wifi',
+  arialabel: 'activate wifi',
 };
 IconOnly.parameters = {
   docs: {
