@@ -1,5 +1,20 @@
 # Semantic Release Automated Changelog
 
+# [1.0.0-beta.5](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2025-03-07)
+
+
+### Features
+
+* install Storybook ([e12dd5b](https://github.com/AlaskaAirlines/aurokit/commit/e12dd5b093667ffe216d832f47f95cd3c44f7443))
+
+
+### Performance Improvements
+
+* add a11y testing ([7c0cba1](https://github.com/AlaskaAirlines/aurokit/commit/7c0cba162430faa61eb8fec3c4d0d5303e6a0c69))
+* update all packages ([3c1bfe2](https://github.com/AlaskaAirlines/aurokit/commit/3c1bfe277c8220841db801882a2e097988d554b6))
+* update docs and npm update support ([b93fe43](https://github.com/AlaskaAirlines/aurokit/commit/b93fe436c26a87418675afa7b0df65a9c48b2a1b))
+* update to official Auro FormKit release ([b8e7216](https://github.com/AlaskaAirlines/aurokit/commit/b8e7216f453f86967bab28d54d3d0f8320684966))
+
 # [1.0.0-beta.4](https://github.com/AlaskaAirlines/auro-kit/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2024-06-04)
 
 
