@@ -47,7 +47,7 @@
     "@aurodesignsystem/auro-skeleton": "~4.0.0",
     "@aurodesignsystem/auro-table": "~4.0.0",
     "@aurodesignsystem/auro-toast": "~3.0.0",
-    "@aurodesignsystem/design-tokens": "^5.1.0",
+    "@aurodesignsystem/design-tokens": "~5.2.1",
     "@aurodesignsystem/webcorestylesheets": "~6.1.0",
     "@storybook/addon-a11y": "^8.6.4",
     "chalk": "~5.4.1"
