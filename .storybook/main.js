@@ -10,7 +10,8 @@ const config = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/experimental-addon-test",
-    '@storybook/addon-docs'
+    '@storybook/addon-docs',
+    '@storybook/addon-a11y'
   ],
   "framework": {
     "name": "@storybook/web-components-vite",
