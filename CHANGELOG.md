@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [1.0.0-beta.7](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2025-04-02)
+
+
+### Features
+
+* update auro dependencies ([cfe8f28](https://github.com/AlaskaAirlines/aurokit/commit/cfe8f28c82164af30e866bbedc037cb3069aa0f5))
+
 # [1.0.0-beta.6](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2025-03-24)
 
 
