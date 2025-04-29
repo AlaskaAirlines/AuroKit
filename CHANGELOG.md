@@ -1,5 +1,28 @@
 # Semantic Release Automated Changelog
 
+# [1.0.0-beta.8](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.7...v1.0.0-beta.8) (2025-04-29)
+
+
+### Features
+
+* update feature release Auro dependencies ([0d6257e](https://github.com/AlaskaAirlines/aurokit/commit/0d6257e8f3a5ea3d425d868348e08717664d43fa))
+* update major Auro released dependencies ([8f32e49](https://github.com/AlaskaAirlines/aurokit/commit/8f32e49bff38b6cc5a775194a93e74a35bd85d76))
+
+
+### Performance Improvements
+
+* update patch dependencies ([8108254](https://github.com/AlaskaAirlines/aurokit/commit/8108254c233c41d3a13768182664d03035edfd54))
+
+
+### BREAKING CHANGES
+
+* This update includes MAJOR release updates from
+flightline, formkit, icon and loader.
+
+Changes to be committed:
+modified:   package-lock.json
+modified:   package.json
+
 # [1.0.0-beta.7](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2025-04-02)
 
 
