@@ -1,5 +1,24 @@
 # Semantic Release Automated Changelog
 
+# [1.0.0-beta.10](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.9...v1.0.0-beta.10) (2025-05-09)
+
+
+### chore
+
+* update Auro package dependencies ([7508db0](https://github.com/AlaskaAirlines/aurokit/commit/7508db0c1aedce5293d3ecbfe68e69cea88140bd))
+
+
+### BREAKING CHANGES
+
+* The following update includes a MAJOR release.
+
+"@aurodesignsystem/auro-badge": "~5.0.0"
+https://github.com/AlaskaAirlines/auro-badge/commit/b3c9a0e807592c31d959309626a8ab5938403899
+
+Changes to be committed:
+modified:   package-lock.json
+modified:   package.json
+
 # [1.0.0-beta.9](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.8...v1.0.0-beta.9) (2025-04-29)
 
 
