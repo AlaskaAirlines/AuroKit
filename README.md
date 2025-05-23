@@ -12,13 +12,15 @@ npm install @aurodesignsystem/aurokit -S
 
 ## Updating AuroKit
 
-To update AuroKit and its dependencies, run:
+Once installed, it is recommended that users update AuroKit and its dependencies, by running:
 
 ```bash
 npm update
 ```
 
-This command will automatically apply compatible patch updates, as defined by npm’s semver handling. Major and minor updates will be installed via SEMVER changes to AuroKit itself.
+This command will automatically apply compatible **patch updates**, as defined by npm’s semver handling. Major and minor updates will be installed via SEMVER changes to AuroKit itself.
+
+AuroKit will never release versions based on **patch updates**. 
 
 ## Overview
 
