@@ -20,7 +20,19 @@ npm update
 
 This command will automatically apply compatible **patch updates**, as defined by npm’s semver handling. Major and minor updates will be installed via SEMVER changes to AuroKit itself.
 
-AuroKit will never release versions based on **patch updates**. 
+AuroKit will never release versions based on **patch updates**.
+
+## Applying overrides
+
+AuroKit, by design, will only release once a quarter per the update and release policy defined below. If the project reuqires updated dependnecies that are not part of the current AuroKit release, the best solution is to use [npm overrides](https://docs.npmjs.com/cli/v9/configuring-npm/package-json#overrides). See the example below:
+
+```js
+"overrides": {
+  "@aurodesignsystem/aurokit": {
+    "@aurodesignsystem/auro-formkit": "~4.0.0"
+  }
+}
+```
 
 ## Overview
 
