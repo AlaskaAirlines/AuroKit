@@ -1,5 +1,34 @@
 # Semantic Release Automated Changelog
 
+# [1.0.0-beta.12](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2025-06-05)
+
+
+### Features
+
+* update Auro dependencies ([893d0cf](https://github.com/AlaskaAirlines/aurokit/commit/893d0cfefb91da2ef4b4a827dafa2d9a019305e0))
+
+
+### BREAKING CHANGES
+
+* This commit includes MAJOR updates to some packages.
+
+-    "@aurodesignsystem/auro-carousel": "~4.0.2",
++    "@aurodesignsystem/auro-carousel": "~4.1.0",
+
+-    "@aurodesignsystem/auro-formkit": "~3.5.0",
++    "@aurodesignsystem/auro-formkit": "~4.0.0",
+
+-    "@aurodesignsystem/auro-hyperlink": "~5.1.2",
++    "@aurodesignsystem/auro-hyperlink": "~5.2.0",
+
+-    "@aurodesignsystem/auro-library": "~4.5.0",
++    "@aurodesignsystem/auro-library": "~5.0.2",
+
+-    "@aurodesignsystem/design-tokens": "~5.15.1",
+-    "@aurodesignsystem/webcorestylesheets": "~6.6.2",
++    "@aurodesignsystem/design-tokens": "~8.1.0",
++    "@aurodesignsystem/webcorestylesheets": "~8.0.1",
+
 # [1.0.0-beta.11](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2025-05-23)
 
 
