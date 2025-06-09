@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [1.0.0-beta.13](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2025-06-09)
+
+
+### Performance Improvements
+
+* update MINOR dependency packages ([ad14028](https://github.com/AlaskaAirlines/aurokit/commit/ad14028e894a164483c5d7f82a56507bc4fc527e))
+
 # [1.0.0-beta.12](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2025-06-05)
 
 
