@@ -49,7 +49,6 @@
     "@aurodesignsystem/auro-toast": "~3.1.1",
     "@aurodesignsystem/design-tokens": "~8.2.0",
     "@aurodesignsystem/webcorestylesheets": "~8.1.0",
-    "@storybook/addon-a11y": "~8.6.4",
     "chalk": "~5.4.1"
   },
   "devDependencies": {
@@ -59,6 +58,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/npm": "^12.0.1",
+    "@storybook/addon-a11y": "~8.6.4",
     "@storybook/addon-essentials": "^8.6.4",
     "@storybook/blocks": "^8.6.4",
     "@storybook/experimental-addon-test": "^8.6.4",
