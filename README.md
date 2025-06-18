@@ -24,7 +24,7 @@ AuroKit will never release versions based on **patch updates**.
 
 ## Applying overrides
 
-AuroKit, by design, will only release once a quarter per the update and release policy defined below. If the project reuqires updated dependnecies that are not part of the current AuroKit release, the best solution is to use [npm overrides](https://docs.npmjs.com/cli/v9/configuring-npm/package-json#overrides). See the example below:
+AuroKit, by design, will only release once a quarter per the update and release policy defined below. If the project requires updated dependencies that are not part of the current AuroKit release, the best solution is to use [npm overrides](https://docs.npmjs.com/cli/v9/configuring-npm/package-json#overrides). See the example below:
 
 ```js
 "overrides": {
