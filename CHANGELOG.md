@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [1.0.0-beta.14](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.13...v1.0.0-beta.14) (2025-06-18)
+
+
+### Bug Fixes
+
+* move dependency to devDependency ([3ee751b](https://github.com/AlaskaAirlines/aurokit/commit/3ee751b6181870e26d434632074ce43ca32c73b3))
+
 # [1.0.0-beta.13](https://github.com/AlaskaAirlines/aurokit/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2025-06-09)
 
 
